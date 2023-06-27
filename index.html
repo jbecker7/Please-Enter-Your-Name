@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css"><script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="dot-indicator">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <h2>Registration Form</h2>
+        <p id="message">Please enter your name</p>
+        <!-- Level 0 -->
+        <div id="level0">
+            <input id="firstName" type="text" placeholder="First Name">
+            <input id="lastName" type="text" placeholder="Last Name">
+            <button id="submit">Enter</button>
+        </div>
+        <!-- Level 1 -->
+        <div id="level1" class="hide">
+            <input id="input1" type="text">
+            <button id="submit1">Enter</button>
+        </div>
+        <!-- Level 2 -->
+        <div id="level2" class="hide">
+            <p id="timer"></p>
+            <p>Please enter your first name</p>
+            <input id="input2" type="text">
+            <button id="submit2">Enter</button>
+        </div>
+        <!-- Level 3 -->
+        <div id="level3" class="hide">
+            <input id="input3" type="text">
+            <button id="submit3">Enter</button>
+        </div>
+        <!-- Level 4 -->
+        <div id="level4" class="hide">
+            <input id="input4" type="text" readonly>
+            <div id="keyboard">
+                <button class="key">A</button>
+                <button class="key">B</button>
+                <button class="key">C</button>
+                <button class="key">D</button>
+                <button class="key">E</button>
+                <button class="key">F</button>
+                <button class="key">G</button>
+                <button class="key">H</button>
+                <button class="key">I</button>
+                <button class="key">J</button>
+                <button class="key">K</button>
+                <button class="key">L</button>
+                <button class="key">M</button>
+                <button class="key">N</button>
+                <button class="key">O</button>
+                <button class="key">P</button>
+                <button class="key">Q</button>
+                <button class="key">R</button>
+                <button class="key">S</button>
+                <button class="key">T</button>
+                <button class="key">U</button>
+                <button class="key">V</button>
+                <button class="key">W</button>
+                <button class="key">X</button>
+                <button class="key">Y</button>
+                <button class="key">Z</button>
+                <button class="key backspace">&larr;</button>
+            </div>
+            <button id="submit4">Enter</button>
+        </div>
+
+        <!-- Level 5 -->
+
+        <div id="level5" class="hide">
+            <canvas id="signature-pad" width="400" height="200" style="border:1px solid #000000;"></canvas>
+            <button id="submit5">Enter</button>
+        </div>
+        
+        <div id="imageContainer"></div>
+  
+ 
+</body>
+</html>
