@@ -175,7 +175,7 @@ document.getElementById('level5').classList.remove('hide');
 var canvas = document.getElementById('signature-pad');
 var context = canvas.getContext('2d');
 var drawing = false;
-var hasDrawn = false;  // New variable
+var hasDrawn = false;  
 var mousePos = { x:0, y:0 };
 var lastPos = mousePos;
 
@@ -223,7 +223,7 @@ img.onload = function() {
     imgContainer.appendChild(img);
     document.getElementById('message').innerText = 'Great job, you entered your name! Handwriting analysis is hard lol so not gonna check that but great job. Press the button below to celebrate.';
     var celebrationButton = document.createElement('button');
-    celebrationButton.innerText = 'Push Me';
+    celebrationButton.innerText = 'Click for the *possibility* of a reward';
     celebrationButton.style.backgroundColor = 'red';
     celebrationButton.style.color = 'white';
     celebrationButton.style.padding = '10px';
